@@ -155,8 +155,6 @@ declare global {
 
       toggleClass?(name: string, bool?: boolean, node?: HTMLElement): void;
 
-      toggleAttribute?(name: string, bool?: boolean, node?: HTMLElement): void;
-
       classFollows?(name: string, toElement: HTMLElement, fromElement: HTMLElement): void;
 
       attributeFollows?(name: string, toElement: HTMLElement, fromElement: HTMLElement): void;
