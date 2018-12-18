@@ -2,7 +2,7 @@
 // Project: http://webgl.org/
 // Definitions by: Arthur Langereis <https://github.com/zenmumbler>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped/webgl-ext
-// TypeScript Version: 2.7
+// TypeScript Version: 3.1
 
 // render-gl1/declarations - WebGL 1 extension definitions (beyond TS lib)
 // Extracted from Stardazed - https://github.com/stardazed/stardazed
@@ -25,6 +25,7 @@ interface WebGL1Extensions {
 	getExtension(name: "WEBKIT_WEBGL_compressed_texture_s3tc"): WEBGL_compressed_texture_s3tc; // Chrome
 	getExtension(name: "WEBKIT_WEBGL_depth_texture"): WEBGL_depth_texture; // Chrome
 	getExtension(name: "WEBKIT_WEBGL_lose_context"): WEBGL_lose_context; // Chrome
+	getExtension(name: string): any
 }
 
 
