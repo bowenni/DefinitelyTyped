@@ -6,7 +6,8 @@ var ext: any;
 var t: any;
 
 if (ext = gl.getExtension("EXT_color_buffer_half_float")) {
-	t = ext.FRAMEBUFFER_ATTACHMENT_COMPONENT_TYPE_EXT;
+  t = ext.FRAMEBUFFER_ATTACHMENT_COMPONENT_TYPE_EXT;
+  t = ext.fsdf;
 }
 
 if (ext = gl.getExtension("WEBGL_compressed_texture_atc")) {
